@@ -21,6 +21,16 @@ int main() {
     for (int r = 1; r <= 8; r++) {
         printf("#Esquerda#\n", r);
     }
+
+    printf("##Cavalo deverá se mover duas casas para baixo e uma casa para a esquerda##\n");
+    for (int c = 0; c < 1; c++)
+    {
+        for (int i = 0; i < 2; i++)
+        {
+            printf("Baixo\n"); 
+        }
+        printf("Esquerda\n");
+    }
    
     return 0;
 }
