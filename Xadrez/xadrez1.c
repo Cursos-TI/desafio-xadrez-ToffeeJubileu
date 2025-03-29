@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//calculando as posição das peças de xadres
 void moverTorre(int casas) {
     if (casas > 0)
     {
@@ -38,6 +39,7 @@ void moverCavalo(int casas) {
     
 }
 
+//imprimindo as posição das peças do xadres
 int main() {
     printf("##Torre: cinco casas para a direita.##\n");
     moverTorre(5);
